@@ -111,15 +111,8 @@ header nav span i {
 /**************************************
     DEBUG
  **************************************/
-
- /* #right_block {
-    border: solid 2px blueviolet;
- }
-
- .bottom_block > nav {
-    background-color: cadetblue;
- }
-
+/* 
  [class*="col"] {
     border: solid 1px;
+    height: 20px;
  } */
