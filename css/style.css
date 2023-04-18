@@ -33,6 +33,10 @@ ul {
     color: #ff8f00;
 }
 
+.bg_blue {
+    background-color: #165bba;
+}
+
  .hidden_sm {
     display: none;
 }
@@ -49,6 +53,10 @@ ul {
             }
 
         }
+
+    /* BS overwrite */
+
+    
 
 
 /**************************************
