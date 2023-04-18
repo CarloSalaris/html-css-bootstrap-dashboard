@@ -67,3 +67,8 @@ header {
  .bottom_block > nav {
     background-color: cadetblue;
  }
+/* 
+ [class*="col"] {
+    min-height: 100px;
+    border: solid 2px;
+ } */
