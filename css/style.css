@@ -11,6 +11,40 @@ body {
     height: 100vh;
 }
 
+img {
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/**************************************
+    UTILITIES
+ **************************************/
+.hidden_sm {
+    display: none;
+}
+
+        /* Query LG */
+        @media screen and (min-width: 992px) {
+                    
+            .hidden_sm {
+                display: inline-block;
+            }
+
+            .hidden_lg {
+                display: none;
+            }
+
+        }
+
 
 /**************************************
     STRUCTURE
@@ -18,6 +52,10 @@ body {
 
 header {
     height: 70px;
+}
+
+#logo_sm {
+    height: 100%;
 }
 
 .bottom_block {
@@ -67,8 +105,7 @@ header {
  .bottom_block > nav {
     background-color: cadetblue;
  }
-/* 
+
  [class*="col"] {
-    min-height: 100px;
-    border: solid 2px;
- } */
+    border: solid 1px;
+ }
