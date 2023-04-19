@@ -94,12 +94,17 @@ ul {
         font-size: .9em;
     }
 
-        /*BS table */
-        tr,
-        th,
-        td {
-            height: 50px;
-        }
+    /*BS table */
+    tr,
+    th,
+    td {
+        height: 50px;
+    }
+
+    /* Offcanvas */
+    .offcanvas.offcanvas-end {
+        width: 800px;
+    }
 
 
 /**************************************
