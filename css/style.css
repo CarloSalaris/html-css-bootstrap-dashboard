@@ -102,18 +102,9 @@ ul {
             height: 50px;
         }
 
-        /* BS Modal */
-        .modal-dialog {
-            max-width: 800px;
-            position: absolute;
-            right: 0;
-            top: 0;            
-        }
-
-        .modal-header,
-        .modal-body,
-        .modal-footer {
-            border: none;
+        /* Form */
+        .form-control {
+            appearance: auto;
         }
 
 
