@@ -13,6 +13,7 @@ body {
 
 img {
     max-height: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -25,12 +26,15 @@ ul {
     padding: 0;
 }
 
-
 /**************************************
     UTILITIES
  **************************************/
 .text_orange{
     color: #ff8f00;
+}
+
+.text_gray {
+    color: #6c757d;
 }
 
 .bg_blue {
@@ -43,22 +47,39 @@ ul {
     border: solid 1px;
     border-radius: 5px;
     font-size: 1.5em;
-    width: 1.6em;
     height: 1.6em;
+    aspect-ratio: 1 / 1;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
 }
 
- .hidden_sm {
+
+.hidden_sm {
     display: none;
 }
+
+.hidden_md {
+    display: none;
+}
+
+
+        /* Query MD */
+        @media screen and (min-width: 768px) {
+                    
+            .hidden_sm {
+                display:table-cell;
+            }
+
+        }
 
         /* Query LG */
         @media screen and (min-width: 992px) {
                     
-            .hidden_sm {
-                display: inline-block;
+            .hidden_md {
+                display:table-cell;
             }
 
             .hidden_lg {
@@ -67,12 +88,23 @@ ul {
 
         }
 
+
     /* BS OVERWRITE */
     
-    .badge {
+    .badge.rounded-pill {
         font-size: .9em;
     }
     
+        /*BS table */
+
+        tr,
+        th,
+        td {
+            height: 50px;
+        }
+
+
+
 /**************************************
     STRUCTURE
  **************************************/
