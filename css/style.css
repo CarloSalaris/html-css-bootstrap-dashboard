@@ -4,11 +4,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa;
+    font-size: 15px;
 }
 
 .wrapper {
     width: 100vw;
     height: 100vh;
+}
+
+main {
+    font-size: 14px;
 }
 
 img {
