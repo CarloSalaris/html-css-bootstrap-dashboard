@@ -68,7 +68,7 @@ ul {
 
         /* Query MD */
         @media screen and (min-width: 768px) {
-                    
+
             .hidden_sm {
                 display:table-cell;
             }
@@ -77,7 +77,7 @@ ul {
 
         /* Query LG */
         @media screen and (min-width: 992px) {
-                    
+
             .hidden_md {
                 display:table-cell;
             }
@@ -90,17 +90,30 @@ ul {
 
 
     /* BS OVERWRITE */
-    
+
     .badge.rounded-pill {
         font-size: .9em;
     }
-    
-        /*BS table */
 
+        /*BS table */
         tr,
         th,
         td {
             height: 50px;
+        }
+
+        /* BS Modal */
+        .modal-dialog {
+            max-width: 800px;
+            position: absolute;
+            right: 0;
+            top: 0;            
+        }
+
+        .modal-header,
+        .modal-body,
+        .modal-footer {
+            border: none;
         }
 
 
@@ -135,24 +148,24 @@ header nav span i {
         background-image: url("../img/sidebar-bg.png");
         background-color: #0d2035;
     }
-        
+
     .bottom_block #right_block {
         width: calc(100% - 70px);
         overflow-y: scroll;
-    } 
-        
-    
+    }
+
+
         /* Side nav query from LG (992px) */
-            
+
         @media screen and (min-width:992px) {
-            
+
             .bottom_block > nav {
                 width: 150px;
             }
 
             .bottom_block #right_block {
                 width: calc(100% - 150px);
-            } 
+            }
         }
 
 #right_block > nav {
@@ -160,12 +173,12 @@ header nav span i {
     min-height: 125px;
     background-color: #1b72e8;
 }
-    
+
 
 /**************************************
     DEBUG
  **************************************/
-/* 
+/*
  [class*="col"] {
     border: solid 1px;
     height: 20px;
