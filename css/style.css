@@ -101,6 +101,10 @@ ul {
         height: 50px;
     }
 
+    .table_col {
+        width: 105px;
+    }
+
     /* Offcanvas */
     .offcanvas.offcanvas-end {
         width: 800px;
