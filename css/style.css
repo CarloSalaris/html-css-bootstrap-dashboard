@@ -56,7 +56,6 @@ ul {
     margin-right: 10px;
 }
 
-
 .hidden_sm {
     display: none;
 }
@@ -101,12 +100,6 @@ ul {
         td {
             height: 50px;
         }
-
-        /* Form */
-        .form-control {
-            appearance: auto;
-        }
-
 
 
 /**************************************
