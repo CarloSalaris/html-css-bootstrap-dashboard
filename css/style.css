@@ -152,6 +152,13 @@ header nav span i {
         overflow-y: scroll;
     }
 
+    #sidebar .hover_bg_gray:hover {
+        transform: scale(1.2);
+        transition: all .2s ease-in-out;
+        background-color: rgb(144, 144, 144);
+        border-radius: 5px;
+
+    }
 
         /* Side nav query from LG (992px) */
 
@@ -163,6 +170,10 @@ header nav span i {
 
             .bottom_block #right_block {
                 width: calc(100% - 150px);
+            }
+
+            #sidebar .hover_bg_gray:hover {
+                transform: scale(1.1);
             }
         }
 
