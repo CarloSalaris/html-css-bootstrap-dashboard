@@ -46,6 +46,12 @@ ul {
     background-color: #165bba;
 }
 
+.hover_scale_1-2:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+
 .square_btn {
     background: none;
     color: inherit;
@@ -153,7 +159,6 @@ header nav span i {
     }
 
     #sidebar .hover_bg_gray:hover {
-        transform: scale(1.2);
         transition: all .2s ease-in-out;
         background-color: rgb(144, 144, 144);
         border-radius: 5px;
