@@ -49,7 +49,14 @@ ul {
 .hover_scale_1-2:hover {
     transform: scale(1.2);
     transition: all .2s ease-in-out;
+}
+
+a.hover_scale_1-2:hover {
     display: inline-block;
+}
+
+.hover_text_black:hover {
+    color: black;
 }
 
 .square_btn {
@@ -177,8 +184,9 @@ header nav span i {
                 width: calc(100% - 150px);
             }
 
-            #sidebar .hover_bg_gray:hover {
+            #sidebar .hover_scale_1-2:hover {
                 transform: scale(1.1);
+                
             }
         }
 
